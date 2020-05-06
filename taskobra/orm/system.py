@@ -4,7 +4,7 @@ from sqlalchemy.ext.associationproxy import association_proxy
 from sqlalchemy.orm import relationship
 # Taskobra
 from taskobra.orm.base import ORMBase
-from taskobra.orm.relationships import SystemComponent, system_snapshot_table
+from taskobra.orm.relationships import SystemComponent
 
 
 class System(ORMBase):
